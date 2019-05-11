@@ -1,0 +1,21 @@
+.faq {
+    &__header {
+        text-align: center;
+        padding: 20px;
+    }
+
+    &__point {
+        padding: 20px;
+
+        &--question {
+            color: pink;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        &--answer {
+            color: #666;
+            font-style: italic;
+        }
+    }
+}
