@@ -1,21 +1,27 @@
 .faq {
-    &__header {
+    &-header {
         text-align: center;
         padding: 20px;
     }
 
-    &__point {
-        padding: 20px;
+    &-point {
+        padding: 40px;
 
-        &--question {
+        &-question {
             color: pink;
             font-size: 25px;
             font-weight: bold;
+            text-align: left;
+            background-color: black;
+            border-radius: 10px;
+            padding: 10px;
+
         }
 
-        &--answer {
+        &-answer {
             color: #666;
             font-style: italic;
+            text-align: right;
         }
     }
 }
