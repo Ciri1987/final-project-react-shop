@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import { AnimatedSwitch } from 'react-router-transition';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//import styles
+import "./App.scss";
+
+//components
+import { Layout } from './components/Layout/Layout';
+import Home from './components/Home/Home';
+import { Cart } from "./components/Cart/Cart";
+import Faq from './components/FAQ/Faq';
+import Terms from './components/Terms/Terms';
+import Contact from './components/Contact/Contact';
+
+
+class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <Layout>
+          <AnimatedSwitch atEnter={{ opacity: 0 }}
+            atLeave={{ opacity: 0 }}
+            atActive={{ opacity: 1 }}
+            className="switch-wrapper"
+          >
+            <Route exact path={"/home"} component={Home} />
+            <Route exact path={"/faq"} component={Faq} />
+            <Route exact path={"/terms"} component={Terms} />
+            <Route exact path={"/cart"} component={Cart} />
+            <Route exact path={"/contact"} component={Contact} />
+          </AnimatedSwitch>
+        </Layout>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
