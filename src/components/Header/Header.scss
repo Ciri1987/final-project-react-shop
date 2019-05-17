@@ -1,0 +1,34 @@
+.header {
+    padding: 40px 30px;
+
+    &-links {
+        padding: 5px;
+        background-color: rgb(231, 236, 236);
+        border-radius: 3px;
+        display: flex;
+        justify-content: flex-end;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        a {
+            margin: 10px;
+            color: rgb(207, 44, 158);
+            text-decoration: none;
+
+            &:hover {
+                color: rgb(197, 153, 182);
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.shop-name {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 10px;
+    font-size: 35px;
+    padding: 10px;
+    color: rgb(219, 93, 114);
+    font-weight: bolder;
+}

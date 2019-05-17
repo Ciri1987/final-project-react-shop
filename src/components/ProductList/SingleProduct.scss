@@ -1,29 +1,33 @@
 .product {
-    background: #eee;
+    background: rgb(238, 213, 223);
+    border-radius: 5px;
     display: inline-block;
-    text-align: left;
-    margin: 5px;
-    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
 
     &:hover {
+        cursor: pointer;
+        transition: 0.5s;
+        opacity: 0.7;
         text-decoration: none;
-        background: lightgreen;
+    }
+
+    &--photo {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
     }
 
     &--info,
     &--name,
     &--price {
-        color: #333;
+        color: rgb(192, 24, 103);
+        padding: 0;
     }
 
     &--info,
     &--name {
         font-weight: bold;
     }
-
-    &--photo {
-        width: 100%;
-        height: auto;
-    }
-
 }

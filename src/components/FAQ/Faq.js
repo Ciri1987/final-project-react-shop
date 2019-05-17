@@ -11,7 +11,7 @@ export const Faq = () => {
                 <p className="faq-point-question">1. Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
                 <p className="faq-point-answer">Praesent nec risus gravida, placerat ipsum sit amet, porta ante. Sed tristique ex sed mauris ultrices malesuada.</p>
             </div>
-            <div className="faq__point">
+            <div className="faq-point">
                 <p className="faq-point-question">2. Suspendisse nec tortor interdum, aliquet massa sit amet, gravida ipsum?</p>
                 <p className="faq-point-answer">Quisque maximus felis at nisi sagittis facilisis. Maecenas tincidunt arcu ut lacus laoreet euismod. Donec interdum elit et ullamcorper pretium.</p>
             </div>
