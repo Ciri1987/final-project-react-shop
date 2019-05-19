@@ -1,18 +1,18 @@
-import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 
-//import styles
-import "./App.scss";
+//import style
+import './App.scss';
 
-//components
+// import components
 import { Layout } from './components/Layout/Layout';
 import Home from './components/Home/Home';
-import { Cart } from "./components/Cart/Cart";
+import Product from './components/Product/Product';
 import Faq from './components/FAQ/Faq';
 import Terms from './components/Terms/Terms';
 import Contact from './components/Contact/Contact';
-
+import Basket from './components/Basket/Basket';
 
 class App extends React.Component {
   render() {
@@ -24,10 +24,13 @@ class App extends React.Component {
             atActive={{ opacity: 1 }}
             className="switch-wrapper"
           >
-            <Route exact path={"/home"} component={Home} />
+            <Route exact path={'/'} component={Home} />
+            <Route exact path={'/home'} component={Home} />
+            <Route exact path={'/product/:id'} component={Product} />
             <Route exact path={"/faq"} component={Faq} />
             <Route exact path={"/terms"} component={Terms} />
-            <Route exact path={"/cart"} component={Cart} />
+            <Route exact path={'/basket'}
+              component={Basket} />
             <Route exact path={"/contact"} component={Contact} />
           </AnimatedSwitch>
         </Layout>
@@ -35,5 +38,4 @@ class App extends React.Component {
     );
   }
 }
-
 export default App;
