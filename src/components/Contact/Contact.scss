@@ -1,4 +1,45 @@
 .contact {
     text-align: center;
     padding: 50px;
+    color: rgb(105, 83, 105);
+
+    &-header {
+        color: rgb(221, 59, 86);
+    }
+
+    &-social {
+        display: flex;
+        justify-content: center;
+
+        &-twitter,
+        &-facebook,
+        &-instagram,
+        &-github {
+            padding: 10px;
+
+
+            &:hover {
+                cursor: pointer;
+                transition: 0.5s;
+                opacity: 0.5;
+                transform: scale(1.20)
+            }
+        }
+
+        &-twitter {
+            color: #4099FF;
+        }
+
+        &-facebook {
+            color: #3B5998;
+        }
+
+        &-instagram {
+            color: #5C3D2E;
+        }
+
+        &-github {
+            color: #4183C4;
+        }
+    }
 }
