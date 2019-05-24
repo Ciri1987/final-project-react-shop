@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
 
 //import style
 import './App.scss';
@@ -38,4 +41,5 @@ class App extends React.Component {
     );
   }
 }
+library.add(fab)
 export default App;
