@@ -1,9 +1,21 @@
+.shop-name {
+    font-family: 'Petit Formal Script', cursive;
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    margin-left: 10px;
+    font-size: 35px;
+    padding: 10px;
+    color: rgb(192, 24, 103);
+    font-weight: bolder;
+}
+
 .header {
-    padding: 40px 30px;
+    padding: 50px 40px;
 
     &-links {
         padding: 5px;
-        background-color: rgb(231, 236, 236);
+        background-color: rgb(226, 176, 196);
         border-radius: 3px;
         display: flex;
         justify-content: flex-end;
@@ -11,24 +23,20 @@
 
         a {
             margin: 10px;
-            color: rgb(207, 44, 158);
+            font-weight: bolder;
+            color: rgb(192, 24, 103);
             text-decoration: none;
+            padding: 10px;
+            border-radius: 3px;
+            width: 100px;
+            height: auto;
+            text-align: center;
 
             &:hover {
-                color: rgb(197, 153, 182);
+
+                background-color: rgb(233, 193, 209);
                 transition: 0.5s;
             }
         }
     }
-}
-
-.shop-name {
-    display: flex;
-    justify-content: flex-start;
-    width: 400px;
-    margin-left: 10px;
-    font-size: 35px;
-    padding: 10px;
-    color: rgb(219, 93, 114);
-    font-weight: bolder;
 }
