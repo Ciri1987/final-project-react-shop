@@ -1,20 +1,34 @@
 .footer {
-    display: flex;
-    justify-content: flex-end;
-    padding: 35px 30px;
+    padding: 30px 20px;
+
+    &-copyright {
+        font-size: 10px;
+    }
 
     &-links {
+        display: flex;
+        justify-content: flex-end;
         padding: 5px;
+        background-color: rgb(226, 176, 196);
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
         a {
-            margin: 20px;
-            color: black;
+            padding: 8px;
+            font-weight: bolder;
+            color: rgb(192, 24, 103);
             text-decoration: none;
+            border-radius: 3px;
+            width: 100px;
+            height: auto;
+            text-align: center;
 
             &:hover {
-                color: rgb(151, 82, 128);
+                background-color: rgb(233, 193, 209);
                 transition: 0.5s;
             }
         }
     }
+
+
 }

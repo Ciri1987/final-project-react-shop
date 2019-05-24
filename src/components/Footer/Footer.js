@@ -6,21 +6,20 @@ import './Footer.scss';
 
 export const Footer = props => {
     return (
-        <div className="footer">
-            <div className="footer-links">
-                <NavLink exact to="/home" activeClassName="activeLink">
-                    Home
+        <div className="footer-links">
+            <div className="footer-copyright">All rights reserved Ciri1987</div>
+            <NavLink exact to="/home" activeClassName="activeLink">
+                Home
                 </NavLink>
-                <NavLink exact to="/faq" activeClassName="activeLink">
-                    FAQ
+            <NavLink exact to="/faq" activeClassName="activeLink">
+                FAQ
                 </NavLink>
-                <NavLink exact to="/terms" activeClassName="activeLink">
-                    Terms
+            <NavLink exact to="/terms" activeClassName="activeLink">
+                Terms
                 </NavLink>
-                <NavLink exact to="/contact" activeClassName="activeLink">
-                    Contact
+            <NavLink exact to="/contact" activeClassName="activeLink">
+                Contact
                 </NavLink>
-            </div>
         </div>
     );
 };
