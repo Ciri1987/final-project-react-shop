@@ -7,7 +7,7 @@ import './Footer.scss';
 export const Footer = props => {
     return (
         <div className="footer-links">
-            <div className="footer-copyright">All rights reserved Ciri1987</div>
+            <p className="footer-copyright">All rights reserved Ciri1987</p>
             <NavLink exact to="/home" activeClassName="activeLink">
                 Home
                 </NavLink>
