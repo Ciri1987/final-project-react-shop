@@ -4,7 +4,24 @@
     color: rgb(105, 83, 105);
 
     &-header {
-        color: rgb(221, 59, 86);
+        text-align: center;
+        padding: 40px;
+        font-weight: bolder;
+        color: rgb(192, 24, 103);
+    }
+
+    &-phone,
+    &-mail {
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        color: rgb(105, 83, 105);
+        padding: 10px;
+
+        &:hover {
+            text-decoration: none;
+            color: rgb(192, 24, 103);
+        }
     }
 
     &-social {
