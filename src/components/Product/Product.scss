@@ -1,0 +1,44 @@
+.productPage {
+    margin: 40px 20px 40px 20px;
+    padding: 20px;
+    background-color: rgb(211, 197, 208);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    &-image {
+        text-align: center;
+        padding: 20px 5px;
+        color: rgb(255, 0, 0);
+        font-weight: bolder;
+
+        &-photo {
+            margin-left: 20px;
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    }
+
+    &-description {
+        padding: 20px 50px 50px;
+
+        &-name {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        &-button {
+            background: black;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 5px 15px;
+
+            &:hover {
+                transition: 0.5s;
+                color: rgb(255, 192, 203);
+
+            }
+        }
+    }
+}
