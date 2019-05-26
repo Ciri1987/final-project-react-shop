@@ -1,9 +1,30 @@
 .productList {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
+    outline: none;
+
 }
 
 .pagination {
-    margin-top: 10px;
-    color: grey;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+
+
+    .page-link {
+        border: none;
+        color: grey;
+        outline: none;
+    }
+
+    .active .page-link {
+        color: #333;
+        font-weight: bold;
+        background: white;
+        outline: none;
+    }
+
+    .page-item {
+        border: none;
+    }
 }
