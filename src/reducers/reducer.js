@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import BasketReducer from './reducers-cart.js';
-import ProductsReducer from './reducers-products.js';
+import BasketReducer from './reducers-basket';
+import ProductsReducer from './reducers-products';
 
 const reducer = combineReducers({
-    products: ProductsReducer, // data about products
-    basket: BasketReducer, // basket functionalities
+    products: ProductsReducer,
+    basket: BasketReducer
 });
 
 export default reducer;
