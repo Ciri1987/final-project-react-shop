@@ -1,79 +1,16 @@
 .basket {
     &-name {
-        text-align: center;
-        padding: 40px;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
         font-weight: bolder;
         color: rgb(192, 24, 103);
     }
 
-    &-product {
-        padding: 20px;
-        margin: 5px 0;
-        border: 1px rgb(102, 100, 100) solid;
-
-        &-photo {
-            img {
-                width: 100%;
-                height: auto;
-            }
-        }
-
-        &-description {
-            &-name {
-                font-size: 1.2em;
-            }
-
-            &-text {
-                font-size: 0.9em;
-            }
-        }
-
-        &-price,
-        &-quantity {
-            text-align: center;
-        }
-
-        &-price {
-            padding: 20px;
-            color: rgb(102, 102, 102);
-        }
-
-        &-quantity {
-
-            button {
-                display: inline-block;
-                background: black;
-                border: none;
-                border-radius: 5px;
-                color: white;
-                padding: 5px 15px;
-
-                &:hover {
-                    transition: 0.5s;
-                    color: rgb(255, 192, 203)
-                }
-            }
-
-            p {
-                display: inline-block;
-                padding: 20px;
-            }
-        }
-    }
-
-    &-discount,
-    &-summary,
-    &-pay {
-        text-align: right;
-        padding: 5px;
-    }
-
-    &-summary {
-        font-size: 1.3em;
-        font-weight: bold;
-    }
-
-    &-finish {
+    /* &-finish {
+        display: inline-block;
+        margin: 20px 10px;
+        text-align: center;
         background: black;
         border: none;
         border-radius: 5px;
@@ -81,11 +18,96 @@
         padding: 5px 15px;
         margin-bottom: 20px;
 
-
         &:hover {
             transition: 0.5s;
             color: rgb(255, 192, 203);
+        }
+    }*/
 
+    // active 
+    &-active {
+        &-product {
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px rgb(158, 152, 152) solid;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+
+            &-photo-img {
+                padding: 10px;
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+
+            &-quantity-button,
+            &-quantity-value {
+                display: inline-flex;
+                margin: 20px 10px;
+                text-align: center;
+                background: black;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                padding: 5px 15px;
+                margin-bottom: 20px;
+
+                &:hover {
+                    transition: 0.5s;
+                    color: rgb(255, 192, 203);
+                }
+            }
+
+            &-price {
+                font-weight: bolder;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            &-description-name {
+                font-weight: bolder;
+                font-size: 1.1rem;
+                padding: 5px;
+            }
+        }
+
+        &-discount,
+        &-sum,
+        &-pay {
+            text-align: right;
+            padding: 5px;
+            margin: 5px;
+        }
+    }
+
+    // summary
+    &-summary {
+        &-line {
+            background: #efefef;
+            font-weight: bold;
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px #dddddd solid;
+
+            &-element,
+            &-element-sum {
+                text-align: center;
+            }
+
+            &-element-name,
+            &-element-sum {
+                font-size: 1.5em;
+            }
+        }
+
+        &-product {
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px #ddd solid;
+
+            &-price {
+                text-align: center;
+            }
         }
     }
 }
