@@ -1,4 +1,4 @@
-.productPage {
+.product-page {
     margin: 40px 20px 40px 20px;
     padding: 20px;
     background-color: rgb(211, 197, 208);
@@ -12,10 +12,10 @@
         font-weight: bolder;
 
         &-photo {
-            margin-left: 20px;
             width: 100%;
             height: auto;
             border-radius: 5px;
+            margin-left: 20px;
         }
     }
 
@@ -28,7 +28,7 @@
         }
 
         &-button {
-            background: black;
+            background: rgb(0, 0, 0);
             border: none;
             border-radius: 5px;
             color: white;

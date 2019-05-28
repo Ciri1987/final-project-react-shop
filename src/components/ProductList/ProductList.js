@@ -9,10 +9,10 @@ export class ProductList extends React.Component {
         super(props);
         this.state = {
             currentPage: 0,
-            currentProducts: [0, 4]
+            currentProducts: [0, 6]
         };
         this.elements = this.props.sorted.products.length;
-        this.pageSize = 4;
+        this.pageSize = 6;
         this.pagesCount = Math.ceil(this.elements / this.pageSize);
     }
 
@@ -28,7 +28,7 @@ export class ProductList extends React.Component {
         const { currentPage } = this.state;
 
         return (
-            <div className="productList col-8">
+            <div className="product-list col-sm-12 col-md-8 col-lg-9">
                 {
                     (this.props.sorted.products.slice(this.state.currentProducts[0], this.state.currentProducts[1])).map((product, i) => {
                         return (
@@ -46,7 +46,7 @@ export class ProductList extends React.Component {
                     }
                     )
                 }
-                <div className="productList-pagination">
+                <div className="product-list-pagination">
                     <Pagination aria-label="Navigation">
                         {[...Array(this.pagesCount)].map((page, i) =>
                             <PaginationItem active={i === currentPage} key={i}>

@@ -37,9 +37,9 @@ export class BasketActive extends React.Component {
 
                 {this.createListProducts()}
 
-                <div className="basket-active-discount-code row">
+                <div className="basket-active-promo-code row">
                     <div className="col-9"></div>
-                    <div className="col-3"><input className="basket-active-input" placeholder="Discount code" /></div>
+                    <div className="col-3"><input className="basket-active-input" placeholder="Promo code" /></div>
                 </div>
                 <div className="basket-active-sum row">
                     <div className="col-9"></div>

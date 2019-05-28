@@ -7,24 +7,7 @@
         color: rgb(192, 24, 103);
     }
 
-    /* &-finish {
-        display: inline-block;
-        margin: 20px 10px;
-        text-align: center;
-        background: black;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        padding: 5px 15px;
-        margin-bottom: 20px;
-
-        &:hover {
-            transition: 0.5s;
-            color: rgb(255, 192, 203);
-        }
-    }*/
-
-    // active 
+    // active basket
     &-active {
         &-product {
             padding: 5px;
@@ -43,14 +26,14 @@
             &-quantity-button,
             &-quantity-value {
                 display: inline-flex;
-                margin: 20px 10px;
+                margin: 20px 10px 20px;
+                padding: 5px 15px;
                 text-align: center;
                 background: black;
                 border: none;
                 border-radius: 5px;
-                color: white;
-                padding: 5px 15px;
-                margin-bottom: 20px;
+                color: rgb(197, 184, 184);
+
 
                 &:hover {
                     transition: 0.5s;
@@ -71,7 +54,7 @@
             }
         }
 
-        &-discount,
+        &-promo,
         &-sum,
         &-pay {
             text-align: right;
@@ -80,14 +63,15 @@
         }
     }
 
-    // summary
+    // summary basket
     &-summary {
         &-line {
             background: #efefef;
-            font-weight: bold;
+            font-weight: bolder;
             padding: 5px;
-            margin: 5px 0;
+            margin: 20px 10px;
             border: 1px #dddddd solid;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
             &-element,
             &-element-sum {
@@ -102,8 +86,8 @@
 
         &-product {
             padding: 5px;
-            margin: 5px 0;
-            border: 1px #ddd solid;
+            margin: 5px 5px;
+            border: 1px rgb(172, 162, 162) solid;
 
             &-price {
                 text-align: center;

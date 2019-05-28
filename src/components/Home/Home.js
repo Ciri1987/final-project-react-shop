@@ -21,15 +21,15 @@ class Home extends React.Component {
     render() {
         return (
             <div className='home'>
-                <div className='home--sorting col-4'>
-                    <p className='home--sorting-header'>
+                <div className='home-sort col-sm-12 col-md-4 col-lg-3'>
+                    <p className='home-sort-header'>
                         Sort by
                     </p>
-                    <ul className='home--sorting-list'>
-                        <li className='home--sorting-list-element' data-prop='name' data-order='asc' onClick={event => this.sortBy(event)}>Name: A-Z</li>
-                        <li className='home--sorting-list-element' data-prop='name' data-order='desc' onClick={event => this.sortBy(event)}>Name: Z-A</li>
-                        <li className='home--sorting-list-element' data-prop='price' data-order='asc' onClick={event => this.sortBy(event)}>Price: low to high</li>
-                        <li className='home--sorting-list-element' data-prop='price' data-order='desc' onClick={event => this.sortBy(event)}>Price: high to low</li>
+                    <ul className='home-sort-list'>
+                        <li className='home-sort-list-element' data-prop='name' data-order='asc' onClick={event => this.sortBy(event)}>Name: A-Z</li>
+                        <li className='home-sort-list-element' data-prop='name' data-order='desc' onClick={event => this.sortBy(event)}>Name: Z-A</li>
+                        <li className='home-sort-list-element' data-prop='price' data-order='asc' onClick={event => this.sortBy(event)}>Price: from low to high</li>
+                        <li className='home-sort-list-element' data-prop='price' data-order='desc' onClick={event => this.sortBy(event)}>Price: from high to low</li>
                     </ul>
                 </div>
                 <ProductList sorted={this.state} />

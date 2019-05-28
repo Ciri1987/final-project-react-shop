@@ -1,7 +1,7 @@
 .home {
     display: flex;
 
-    &--sorting {
+    &-sort {
 
         &-header {
             margin-top: 45px;
@@ -12,18 +12,19 @@
 
         &-list {
             cursor: pointer;
+            flex-wrap: wrap;
             padding: 10px;
             margin: 10px;
             list-style-type: none;
             font-size: 1em;
-            color: #777;
+            color: rgb(119, 119, 119);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 200px;
+            width: 300px;
         }
 
         &-list-element {
             &:hover {
-                color: pink;
+                color: rgb(190, 94, 110);
                 transition-duration: 0.2s;
             }
         }

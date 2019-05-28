@@ -1,4 +1,6 @@
 .terms {
+    display: flex;
+    flex-direction: column;
 
     &-header {
         text-align: center;

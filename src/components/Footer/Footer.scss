@@ -1,8 +1,9 @@
 .footer {
-    padding: 30px 20px;
 
     &-copyright {
-        font-size: 10px;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
     }
 
     &-links {
@@ -26,6 +27,7 @@
             &:hover {
                 background-color: rgb(233, 193, 209);
                 transition: 0.5s;
+                transform: scale(1.05);
             }
         }
     }

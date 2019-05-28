@@ -12,6 +12,7 @@
 
 .header {
     padding: 50px 40px;
+    display: flex;
 
     &-links {
         padding: 5px;
@@ -36,7 +37,22 @@
 
                 background-color: rgb(233, 193, 209);
                 transition: 0.5s;
+                transform: scale(1.05);
             }
         }
+    }
+}
+
+@media(max-width: 768px) {
+    .shop-name {
+        justify-content: center;
+
+    }
+
+    .header {
+        display: inline-flex;
+        flex-wrap: wrap;
+
+
     }
 }
