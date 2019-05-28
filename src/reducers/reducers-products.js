@@ -3,7 +3,7 @@ export default function () {
         {
             "name": "Brow Palette",
             "price": 50.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "addInfo": "Sale",
             "imgSrc": "../../images/brow-palette.jpeg",
             "id": 1,
@@ -12,7 +12,7 @@ export default function () {
         {
             "name": "Brush",
             "price": 30.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "addInfo": "Bestseller",
             "imgSrc": "../../images/brush.jpeg",
             "id": 2,
@@ -21,7 +21,7 @@ export default function () {
         {
             "name": "Cream",
             "price": 60.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "addInfo": " ",
             "imgSrc": "../../images/cream.jpeg",
             "id": 3,
@@ -30,7 +30,7 @@ export default function () {
         {
             "name": "Eyeshadow Palette",
             "price": 45.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "addInfo": "Sale",
             "imgSrc": "../../images/eyeshadow-palette.jpeg",
             "id": 4,
@@ -39,7 +39,7 @@ export default function () {
         {
             "name": "Eyeshadow Palette",
             "price": 65.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "addInfo": "New",
             "imgSrc": "../../images/eyeshadow-palette-2.jpeg",
             "id": 5,
@@ -48,7 +48,7 @@ export default function () {
         {
             "name": "Gel",
             "price": 20.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "addInfo": " ",
             "imgSrc": "../../images/gel.jpeg",
             "id": 6,
@@ -66,7 +66,7 @@ export default function () {
         {
             "name": "Lipstick",
             "price": 12.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "addInfo": "Bestseller",
             "imgSrc": "../../images/lipstick.jpeg",
             "id": 8,
@@ -75,7 +75,7 @@ export default function () {
         {
             "name": "Lipsticks set",
             "price": 40.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "addInfo": "Sale",
             "imgSrc": "../../images/lipsticks.jpeg",
             "id": 9,
@@ -84,7 +84,7 @@ export default function () {
         {
             "name": "Nail polish",
             "price": 5.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "addInfo": "Sale",
             "imgSrc": "../../images/nail-polish.jpeg",
             "id": 10,
@@ -93,8 +93,8 @@ export default function () {
         {
             "name": "Pink Blush",
             "price": 24.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "addInfo": " ",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "addInfo": "Last one",
             "imgSrc": "../../images/pink-blush.jpeg",
             "id": 11,
             "quantity": 1
@@ -102,7 +102,7 @@ export default function () {
         {
             "name": "Powder",
             "price": 30.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "addInfo": "Sale",
             "imgSrc": "../../images/puder.jpeg",
             "id": 12,
@@ -110,8 +110,8 @@ export default function () {
         },
         {
             "name": "Red lipstick",
-            "price": 5.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": 7.00,
+            "descr": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "addInfo": "Last one",
             "imgSrc": "../../images/red-lipstic.jpeg",
             "id": 13,
@@ -119,8 +119,8 @@ export default function () {
         },
         {
             "name": "Shadow",
-            "price": 20.00,
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": 19.00,
+            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "addInfo": " ",
             "imgSrc": "../../images/shadow.jpeg",
             "id": 14,
@@ -128,7 +128,7 @@ export default function () {
         },
         {
             "name": "Sponge set",
-            "price": 10.00,
+            "price": 14.00,
             "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "addInfo": "Sale",
             "imgSrc": "../../images/sponge.jpeg",
