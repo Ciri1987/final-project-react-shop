@@ -1,26 +1,22 @@
-# Beauty Shop
+# Beauty Shop / WIP
 
 Front-end of the shop made in ReactJS
+
+Live [demo](https://beauty-shop1987.firebaseapp.com/home)
 
 ### Technologies
 
 - HTML
 - SCSS
-- Bootstrap
+- Bootstrap classes for RWD
 - ReactJS
 - React-Redux
-
 
 ## Built With
 
 * [create-react-app]
 
+## Author
 
-## Authors
+* **Anna Strzała** - [Ciri1987](https://github.com/Ciri1987)
 
-* **Anna Strzała** - *Initial work* - [Ciri1987](https://github.com/Ciri1987)
-
-
-## License
-
-This project is licensed under the MIT License.
